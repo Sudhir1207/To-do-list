@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Items from "./Items";
 
 export default function ToDo(){
 
@@ -22,9 +23,8 @@ export default function ToDo(){
             />
             <button type="submit">Add</button>
         </form>
-        {toDos.map((item)=>
-        (<h3>{item}</h3>)
-        )}
+        {toDos.map((item)=>(<Items key={item} item={item}/>))}
+       
     </div>
     );
 }
