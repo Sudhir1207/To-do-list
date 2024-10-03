@@ -1,0 +1,17 @@
+.It_comp{
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    
+  
+}
+
+.It_style{
+    font-weight: bold;
+    padding: 20px;
+
+}
+
+.line{
+    border: 1px solid #f4f4f4;
+}
