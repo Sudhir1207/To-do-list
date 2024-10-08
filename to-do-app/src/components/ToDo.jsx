@@ -8,7 +8,7 @@ export default function ToDo(){
     return(
     <div>
         <Form toDos={toDos} SettoDos={SettoDos}/>
-        <ToDoList toDos={toDos}/>
+        <ToDoList toDos={toDos} SettoDos={SettoDos}/>
        
     </div>
     );
