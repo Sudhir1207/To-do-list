@@ -26,3 +26,7 @@
     margin-top: -9px;
     cursor: pointer;
 }
+
+.completed{
+    text-decoration: line-through;
+}
