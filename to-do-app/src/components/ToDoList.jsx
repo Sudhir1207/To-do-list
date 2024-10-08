@@ -5,7 +5,7 @@ export default function ToDoList({toDos, SettoDos}){
     return (
         <div className={toDos.length ? styles.list : ""}>
             {toDos.map((item)=>(
-                <Items key={item} item={item} toDos={toDos} SettoDos={SettoDos}/>
+                <Items key={item.name} item={item} toDos={toDos} SettoDos={SettoDos}/>
                 ))}
         </div>
     )
